@@ -5,7 +5,7 @@ unit Telegramapibot;
 interface
 
 uses
-  Classes, SysUtils,fphttpclient, fpjson,opensslsockets;
+  Classes, SysUtils,fphttpclient, fpjson,opensslsockets,jsonparser;
 
 type bot_info = record    //info about bot. Getme
   id:string;
