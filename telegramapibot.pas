@@ -129,8 +129,7 @@ begin
     begin
       setWebErrors.Error:=true;
       setWebErrors.DescriptionError:=RawData;
-      setWebErrors.ErrorCode:=-1;
-      y.Free;
+      setWebErrors.ErrorCode:=-1;     
     end;
 end;
 
